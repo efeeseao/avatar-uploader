@@ -1,0 +1,12 @@
+import { FC, SVGProps } from 'react'
+
+const SVGExclamation: FC<SVGProps<SVGSVGElement>> = (props) => (
+  <svg width="20" height="20" {...props}>
+    <path
+      d="M9.9875 -0.0125027C4.4625 -0.0125027 -0.0124969 4.4625 -0.0124969 9.9875C-0.0124969 15.5125 4.4625 19.9875 9.9875 19.9875C15.5125 19.9875 19.9875 15.5125 19.9875 9.9875C19.9875 4.4625 15.5125 -0.0125027 9.9875 -0.0125027ZM11.2375 16.2375H8.7375V13.7375H11.2375V16.2375ZM11.2375 12.4875H8.7375V3.7375H11.2375V12.4875Z"
+      fill="white"
+    />
+  </svg>
+)
+
+export default SVGExclamation
