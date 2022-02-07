@@ -1,3 +1,10 @@
 import styled from 'styled-components'
+import { layout, flexbox, space } from 'styled-system'
 
-export const Wrapper = styled.h1``
+import { MainProps } from '.'
+
+export const Wrapper = styled.div<MainProps>`
+  ${layout}
+  ${flexbox}
+  ${space}
+`

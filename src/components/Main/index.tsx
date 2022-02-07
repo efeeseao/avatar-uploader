@@ -1,7 +1,16 @@
 import React from 'react'
+import { FlexboxProps, SpaceProps, LayoutProps } from 'styled-system'
 
 import * as S from './styles'
 
-const Main = () => <S.Wrapper>Hello World</S.Wrapper>
+export type MainProps = {
+  children: React.ReactNode
+} & LayoutProps &
+  FlexboxProps &
+  SpaceProps
+
+const Main = ({ children, ...moreProps }: MainProps) => (
+  <S.Wrapper {...moreProps}>{children}</S.Wrapper>
+)
 
 export default Main
