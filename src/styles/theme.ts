@@ -23,4 +23,4 @@ export default {
     xxxxxxl: '4rem',
     xxxxxxxl: '5rem'
   }
-}
+} as const
