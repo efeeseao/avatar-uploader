@@ -1,4 +1,4 @@
-# How to start the Meiuca Design System
+# How to start the project
 
 This project was started with [React.js](https://reactjs.org/)
 
